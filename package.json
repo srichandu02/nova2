@@ -1,0 +1,9 @@
+{
+  "name": "nova-smart-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NOVA Smart Local prototype (no dependencies)",
+  "scripts": { "test": "node tests.js",
+    "lint": "node --check logic.js && node --check views.js && node --check app.js && node --check tests.js && node --check sw.js",
+    "check": "npm run lint && npm test" }
+}

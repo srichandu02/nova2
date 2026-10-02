@@ -1,0 +1,18 @@
+{
+  "name": "NOVA Smart Local",
+  "lang": "en",
+  "short_name": "NOVA Local",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "orientation": "portrait-primary",
+  "categories": ["shopping", "business"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "display": "standalone",
+  "background_color": "#f5f8f6",
+  "theme_color": "#0f6b45",
+  "description": "Prototype for reliable local commerce, store availability and community-assisted ordering."
+}
